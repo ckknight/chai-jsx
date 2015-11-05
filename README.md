@@ -17,6 +17,12 @@ expect(<Component><div /></Component>).jsx.to.equal(<Component><div /></Componen
 expect(<Component><div /></Component>).jsx.to.not.equal(<Component><span /></Component>);
 ```
 
+Check for inclusion of child elements:
+
+```js
+expect(<Parent><Child /></Parent>).jsx.to.include(<Child />);
+```
+
 #### Installation
 
 This is a addon plugin for the [Chai Assertion Library](http://chaijs.com). Install via [npm](http://npmjs.org).
@@ -34,4 +40,3 @@ var chai = require('chai')
 
 chai.use(chaiJsx);
 ```
-
