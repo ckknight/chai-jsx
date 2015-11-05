@@ -1,0 +1,33 @@
+{
+  "name": "chai-jsx",
+  "version": "1.0.0",
+  "description": "JSX React Element assertions for chai",
+  "author": "Cameron Knight <ckknight@gmail.com>",
+  "keywords": [
+    "chai",
+    "plugin",
+    "jsx",
+    "react",
+    "assertion"
+  ],
+  "main": "chai-jsx.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ckknight/chai-jsx.git"
+  },
+  "homepage": "https://github.com/ckknight/chai-jsx",
+  "bugs": "https://github.com/ckknight/chai-jsx/issues",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-element-to-jsx-string": "^2.1.0"
+  },
+  "devDependencies": {
+    "react": "^0.14.2",
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
