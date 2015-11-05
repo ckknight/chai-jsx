@@ -34,3 +34,4 @@ var chai = require('chai')
 
 chai.use(chaiJsx);
 ```
+
