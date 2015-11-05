@@ -1,6 +1,6 @@
 {
   "name": "chai-jsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSX React Element assertions for chai",
   "author": "Cameron Knight <ckknight@gmail.com>",
   "keywords": [
